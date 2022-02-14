@@ -1,0 +1,50 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Umer\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add express-jwt
+
+PATH: 
+  C:\Program Files\WindowsApps\Microsoft.PowerShell_7.2.1.0_x64__8wekyb3d8bbwe;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\nodejs\;C:\Users\Umer\AppData\Local\Microsoft\WindowsApps;E:\Nodejs;E:\Git\bin;E:\Microsoft VS Code\bin;C:\Users\Umer\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Umer\AppData\Local\GitHubDesktop\bin;C:\Users\Umer\AppData\Roaming\npm;C:\Users\Umer\AppData\Roaming\npm\node_modules\yarn\bin;C:\Users\Umer\AppData\Roaming\npm\node_modules\yarn\bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\eudemy\server\node_modules\bcrypt\lib\binding\napi-v3\bcrypt_lib.node'
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+      "start": "nodemon server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "bcrypt": "^5.0.1",
+      "cookie-parser": "^1.4.6",
+      "cors": "^2.8.5",
+      "csurf": "^1.11.0",
+      "dotenv": "^14.3.2",
+      "express": "^4.17.2",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^6.1.8",
+      "morgan": "^1.10.0",
+      "nodemon": "^2.0.15"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
